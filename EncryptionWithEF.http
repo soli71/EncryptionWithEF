@@ -1,0 +1,6 @@
+@EncryptionWithEF_HostAddress = http://localhost:5019
+
+GET {{EncryptionWithEF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
