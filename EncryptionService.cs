@@ -29,7 +29,6 @@ namespace EncryptionWithEF
             }
             return input;
         }
-
         public string Decrypt(string cipherText)
         {
             byte[] buffer = Convert.FromBase64String(cipherText);
