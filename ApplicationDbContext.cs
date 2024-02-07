@@ -26,6 +26,7 @@ namespace EncryptionWithEF
             EncryptionConverter encryptionConverter1 = encryptionConverter;
             modelBuilder.Entity<User>()
                 .Property<string>(u => u.PhoneNumber)
+
                 .HasConversion(encryptionConverter1);
         }
     }
