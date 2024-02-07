@@ -6,9 +6,6 @@ namespace EncryptionWithEF
     public class EncryptionService
     {
         private readonly string _encryptionKey = "your-secret-key";
-
-
-
         public string Encrypt(string input)
         {
             byte[] clearBytes = Encoding.Unicode.GetBytes(input);
