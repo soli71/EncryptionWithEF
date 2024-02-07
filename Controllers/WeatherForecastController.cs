@@ -47,4 +47,5 @@ namespace EncryptionWithEF.Controllers
             .ToArray();
         }
     }
+    //Master
 }
